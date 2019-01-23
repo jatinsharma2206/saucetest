@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0"
+	total="1" passed="1">
+	<reporter-output>
+	</reporter-output>
+	<suite name="Default suite" duration-ms="5221"
+		started-at="2019-01-23T08:10:00Z" finished-at="2019-01-23T08:10:05Z">
+		<groups>
+		</groups>
+		<test name="Default test" duration-ms="5221"
+			started-at="2019-01-23T08:10:00Z" finished-at="2019-01-23T08:10:05Z">
+			<class name="com.saucedemo.saucetest.SauceDemo_Test">
+				<test-method status="PASS"
+					signature="setUp()[pri:0, instance:com.saucedemo.saucetest.SauceDemo_Test@6093dd95]"
+					name="setUp" is-config="true" duration-ms="1300"
+					started-at="2019-01-23T08:10:00Z"
+					finished-at="2019-01-23T08:10:01Z">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- setUp -->
+				<test-method status="PASS"
+					signature="saucedemoTesting(java.lang.String, java.lang.String)[pri:0, instance:com.saucedemo.saucetest.SauceDemo_Test@6093dd95]"
+					name="saucedemoTesting" duration-ms="3820"
+					started-at="2019-01-23T08:10:01Z" data-provider="loginData"
+					finished-at="2019-01-23T08:10:05Z">
+					<params>
+						<param index="0">
+							<value>
+                <![CDATA[standard_user]]>
+							</value>
+						</param>
+						<param index="1">
+							<value>
+                <![CDATA[secret_sauce]]>
+							</value>
+						</param>
+					</params>
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- saucedemoTesting -->
+				<test-method status="PASS"
+					signature="tearDown()[pri:0, instance:com.saucedemo.saucetest.SauceDemo_Test@6093dd95]"
+					name="tearDown" is-config="true" duration-ms="81"
+					started-at="2019-01-23T08:10:05Z"
+					finished-at="2019-01-23T08:10:05Z">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- tearDown -->
+			</class> <!-- com.saucedemo.saucetest.SauceDemo_Test -->
+		</test> <!-- Default test -->
+	</suite> <!-- Default suite -->
+</testng-results>
