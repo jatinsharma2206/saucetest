@@ -21,7 +21,8 @@ public class SauceDemo_Test {
 	@BeforeTest(alwaysRun = true)
 	public void setUp() throws Exception {
 		
-		//Chrome driver is setup as per mac os. This Should be corrected for windows.
+		//Chrome driver is setup as per mac os. This Should be corrected for windows uncomment below line for windows.
+		//System.setProperty("webdriver.chrome.driver", "./chromedriver.exe");
 		System.setProperty("webdriver.chrome.driver", "./chromedriver");
 		driver = new ChromeDriver();
 		// Using env.properties file to parameterize ProjectUrl to avoid hard
