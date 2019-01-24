@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="8290" started-at="2019-01-24T04:41:29Z" finished-at="2019-01-24T04:41:37Z">
+  <suite name="Default suite" duration-ms="9075" started-at="2019-01-24T05:27:55Z" finished-at="2019-01-24T05:28:04Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="8290" started-at="2019-01-24T04:41:29Z" finished-at="2019-01-24T04:41:37Z">
+    <test name="Default test" duration-ms="9075" started-at="2019-01-24T05:27:55Z" finished-at="2019-01-24T05:28:04Z">
       <class name="com.saucedemo.saucetest.SauceDemo_Test">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.saucedemo.saucetest.SauceDemo_Test@1bce4f0a]" name="setUp" is-config="true" duration-ms="2885" started-at="2019-01-24T04:41:29Z" finished-at="2019-01-24T04:41:32Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.saucedemo.saucetest.SauceDemo_Test@1bce4f0a]" name="setUp" is-config="true" duration-ms="2868" started-at="2019-01-24T05:27:55Z" finished-at="2019-01-24T05:27:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="saucedemoTesting(java.lang.String, java.lang.String)[pri:0, instance:com.saucedemo.saucetest.SauceDemo_Test@1bce4f0a]" name="saucedemoTesting" duration-ms="4793" started-at="2019-01-24T04:41:32Z" data-provider="loginData" finished-at="2019-01-24T04:41:37Z">
+        <test-method status="PASS" signature="saucedemoTesting(java.lang.String, java.lang.String)[pri:0, instance:com.saucedemo.saucetest.SauceDemo_Test@1bce4f0a]" name="saucedemoTesting" duration-ms="5567" started-at="2019-01-24T05:27:58Z" data-provider="loginData" finished-at="2019-01-24T05:28:04Z">
           <params>
             <param index="0">
               <value>
@@ -27,7 +27,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- saucedemoTesting -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.saucedemo.saucetest.SauceDemo_Test@1bce4f0a]" name="tearDown" is-config="true" duration-ms="597" started-at="2019-01-24T04:41:37Z" finished-at="2019-01-24T04:41:37Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.saucedemo.saucetest.SauceDemo_Test@1bce4f0a]" name="tearDown" is-config="true" duration-ms="620" started-at="2019-01-24T05:28:04Z" finished-at="2019-01-24T05:28:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
